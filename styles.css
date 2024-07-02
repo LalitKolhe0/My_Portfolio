@@ -1,0 +1,135 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #758fcb;
+}
+
+/* Header styles */
+header {
+    background: #758fcb;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+#home {
+    background: #f4f4f4;
+    padding: 4rem 1rem;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color:#07124e;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Portfolio item styles */
+.portfolio-item {
+    margin: 2rem 0;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Contact form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background: #758fcb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer styles */
+footer {
+    background: #758fcb;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact{
+    
+    margin-bottom: 30px;
+}
